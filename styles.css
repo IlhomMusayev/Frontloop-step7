@@ -1,0 +1,92 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #F2CE97;
+}
+
+.container{
+    display: flex;
+    width: 1000px;
+    background-color: #fff;
+}
+.blog-autor-about{
+    width: 40%;
+    background-color: #494656;
+    color: #fff;
+    padding: 60px 50px;
+    top: 0;
+    position: relative;
+}
+.blog-autor-about h1{
+    font-size: 25px;
+}
+.blog-autor-about h1 samp{
+    font-size: 25px;
+    font-weight:lighter;
+    font-family: sans-serif;
+    border-bottom: 3px solid rgb(221, 109, 56);
+    
+}
+.blog-autor-about .avatar{
+    position: absolute;
+    bottom: 30px;
+}
+.blog-autor-about .avatar img{
+    border-radius: 50%;
+    max-width: 60px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.5);
+}
+.blog-autor-about .avatar h3{
+    display: inline-block; 
+    font-size: 17px;
+    font-weight: 100; 
+    position: relative;
+    margin-left: 10px;
+    bottom: 20px;
+}
+
+
+
+
+
+.blog-text{
+    width: 60%;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #333;
+    position: relative;
+}
+.blog-text p{
+    padding: 60px 40px 20px 40px;
+    line-height: 30px;
+}
+.blog-text .blog-footer{
+    box-shadow: 0 -8px 10px 0 rgba(0,0,0,0.1);
+    padding: 0 40px;
+}
+.blog-text .create-time{
+    left: 0;
+}
+.blog-footer .share{
+    right: 0;
+}
+.blog-footer .comment{
+    display: inline-block;
+}
+ 
+.blog-footer .more{
+    display: flex;
+    
+}
