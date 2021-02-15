@@ -57,10 +57,6 @@ body {
     bottom: 20px;
 }
 
-
-
-
-
 .blog-text{
     width: 60%;
     font-size: 20px;
@@ -69,24 +65,48 @@ body {
     position: relative;
 }
 .blog-text p{
-    padding: 60px 40px 20px 40px;
+    padding: 60px 40px 40px 40px;
     line-height: 30px;
+    font-size: 20px;
 }
 .blog-text .blog-footer{
-    box-shadow: 0 -8px 10px 0 rgba(0,0,0,0.1);
-    padding: 0 40px;
+    box-shadow: 0 -8px 10px 0 rgba(114, 113, 113, 0.1);
+    padding: 25px 40px;
 }
-.blog-text .create-time{
-    left: 0;
+.blog-text p samp{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
 }
-.blog-footer .share{
-    right: 0;
+.create-time{
+    display: inline-block;
+    font-size: 16px;
 }
-.blog-footer .comment{
+.create-time small{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.share{
+    display: flex;
+    float: right;
+}
+.share h5{
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 1.3em 0 0.5em;
+    position: relative;
+    top: 1.5px;
+    color: #aaa;
+    font-size: 16px;   
+}
+.share .comments{
     display: inline-block;
 }
- 
-.blog-footer .more{
-    display: flex;
-    
+.share .more{
+    display: inline-block;
+}
+.share .more img{
+    position: relative;
+    top: -2px;
 }
